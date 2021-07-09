@@ -110,8 +110,8 @@ export default class AnalyticsDashboard1 extends Component {
                     transitionLeave={false}>
                     <div>
                         <PageTitle
-                            heading="Basic Dashboard"
-                            subheading="This is an example dashboard created using build-in elements and components."
+                            heading="BinaBox Dashboard"
+                            subheading="This is a dashboard created for using templates and workflows."
                             icon="pe-7s-car icon-gradient bg-mean-fruit"
                         />
                         <Row>

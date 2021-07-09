@@ -12,7 +12,7 @@ class Nav extends Component {
     render() {
         return (
             <Fragment>
-                <h5 className="app-sidebar__heading">PRO VERSION</h5>
+                <h5 className="app-sidebar__heading">BinaBox Production Version</h5>
                 <div className="metismenu vertical-nav-menu">
                     <ul className="metismenu-container">
                         <li className="metismenu-item">
