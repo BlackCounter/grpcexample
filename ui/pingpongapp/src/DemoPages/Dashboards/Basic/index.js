@@ -111,7 +111,7 @@ export default class AnalyticsDashboard1 extends Component {
                     <div>
                         <PageTitle
                             heading="BinaBox Dashboard"
-                            subheading="This is a dashboard created for using templates and workflows."
+                            subheading="This is an Dashboard for orchestrator workflows."
                             icon="pe-7s-car icon-gradient bg-mean-fruit"
                         />
                         <Row>
@@ -127,12 +127,12 @@ export default class AnalyticsDashboard1 extends Component {
                                                     className={"border-0 btn-pill btn-wide btn-transition " + classnames({active: this.state.activeTab1 === '11'})}
                                                     color="primary" onClick={() => {
                                                 this.toggle1('11');
-                                            }}>Tab 1</Button>
+                                            }}>Monitoring  Workflow</Button>
                                             <Button outline
                                                     className={"ml-1 btn-pill btn-wide border-0 btn-transition " + classnames({active: this.state.activeTab1 === '22'})}
                                                     color="primary" onClick={() => {
                                                 this.toggle1('22');
-                                            }}>Tab 2</Button>
+                                            }}>Submit New Workflows</Button>
                                         </div>
                                     </CardHeader>
                                     <TabContent activeTab={this.state.activeTab1}>
@@ -245,7 +245,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     <div className="widget-description mt-0 text-warning">
                                                         <FontAwesomeIcon icon={faArrowLeft}/>
                                                         <span className="pl-1">175.5%</span>
-                                                        <span className="text-muted opacity-8 pl-1">increased server resources</span>
+                                                        <span className="text-muted opacity-8 pl-1"> <a href="http://130.185.78.233:9000">Monitoring Docker Workflows</a></span>
                                                     </div>
                                                 </div>
                                                 <ResponsiveContainer height={187}>
