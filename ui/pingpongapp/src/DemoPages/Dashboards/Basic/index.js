@@ -277,7 +277,7 @@ export default class AnalyticsDashboard1 extends Component {
                                                     <div className="widget-description mt-0 text-success">
                                                         <FontAwesomeIcon icon={faArrowUp}/>
                                                         <span className="pl-2 pr-2">37.2%</span>
-                                                        <span className="text-muted opacity-8">performance increase</span>
+                                                        <span className="text-muted opacity-8"> <a href="http://130.185.78.233:8000">Submit New Docker Compose  Workflows</a></span>
                                                     </div>
                                                 </div>
                                             </div>
